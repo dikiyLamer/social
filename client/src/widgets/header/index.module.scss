@@ -1,0 +1,53 @@
+@import '../../app/styles/variables.scss';
+.title {
+  font-size: 24px;
+  width: fit-content;
+}
+
+header {
+  padding: 2vh 20px;
+  width: 100%;
+  background-color: $main-contrast-clr;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  color: $main-light-clr;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  &:hover {
+    color: $hover-header-color;
+  }
+}
+
+.user-actions {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.user-photo {
+  width: 40px;
+  height: 40px;
+  color: white;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo-block {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  cursor: pointer;
+}
+.main {
+  display: flex;
+  gap: 32px;
+}

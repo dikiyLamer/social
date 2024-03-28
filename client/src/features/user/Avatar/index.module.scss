@@ -1,0 +1,28 @@
+@import '../../../app/styles/variables.scss';
+
+p {
+  color: $main-light-clr;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  &:hover {
+    color: $hover-header-color;
+  }
+}
+
+.user-photo {
+  color: white;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo-block {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  cursor: pointer;
+}

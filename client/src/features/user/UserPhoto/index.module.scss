@@ -1,0 +1,13 @@
+@import '../../../app/styles/variables.scss';
+
+.user-photo {
+  color: white;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

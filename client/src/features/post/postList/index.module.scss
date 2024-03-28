@@ -1,0 +1,9 @@
+@import '../../../app/styles/variables.scss';
+
+.posts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: $main-light-clr;
+}

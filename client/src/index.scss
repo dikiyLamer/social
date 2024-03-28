@@ -1,0 +1,20 @@
+@import './app/styles/variables.scss';
+@import './app/styles/media.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#root {
+  height: 100vh;
+  overflow: auto;
+}
+
+.ant-layout {
+  background-color: $main-light-clr;
+}

@@ -1,0 +1,35 @@
+@import '../../../../app/styles/variables.scss';
+
+.chat {
+  background-color: $wall-user-photo-bg-clr;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px;
+  gap: 12px;
+}
+
+textarea,
+.send {
+  width: 100%;
+}
+
+textarea {
+  outline: none;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+}
+
+.work-zone {
+  height: 100%;
+  border-radius: 15px;
+  background-color: $main-light-clr;
+}
+
+.typing-zone {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

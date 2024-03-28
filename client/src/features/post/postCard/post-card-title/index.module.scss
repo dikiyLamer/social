@@ -1,0 +1,7 @@
+@import '../../../../app/styles/variables.scss';
+.title {
+  color: $main-black-clr;
+  &:hover {
+    color: $main-contrast-clr;
+  }
+}

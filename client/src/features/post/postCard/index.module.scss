@@ -1,0 +1,8 @@
+p {
+  color: black;
+  &:hover {
+    color: black;
+  }
+  max-width: calc(100vw - 306px);
+  overflow: auto;
+}

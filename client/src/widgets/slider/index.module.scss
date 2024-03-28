@@ -1,0 +1,16 @@
+@import '../../app/styles/variables.scss';
+
+.slider {
+  background-color: $main-light-clr;
+  height: 100%;
+  width: 240px;
+  flex: 0 0 auto;
+}
+
+.tab {
+  display: block;
+  font-size: 1.2rem;
+  color: $main-black-clr;
+  text-decoration: none;
+  padding: 10px;
+}

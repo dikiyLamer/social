@@ -1,0 +1,11 @@
+@import '../../../app/styles/variables.scss';
+
+.chats {
+  width: 200px;
+  flex: 0 0 auto;
+}
+
+.messages {
+  display: flex;
+  width: 100%;
+}
